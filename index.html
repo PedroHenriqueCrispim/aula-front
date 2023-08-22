@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Listagem</h1>
+      </header>
+
+      <aside>
+        <input type="text" placeholder="Procure seu time:" list="faixa" />
+        <datalist id="faixa">
+          <option value="Santos">Times de SP</option>
+          <option value="Flamengo">Times do RJ</option>
+        </datalist>
+      </aside>
+
+      <main>
+        <section>
+          <figure>
+            <img src="https://picsum.photos/seed/picsum/400/300" alt="" />
+            <figcaption>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </figcaption>
+          </figure>
+        </section>
+
+        <section>
+          <details open>
+            <summary>Times de futebol - veja mais</summary>
+            <ul>
+              <li>Vasco</li>
+              <li>Manchester United</li>
+              <li>Al hilal</li>
+            </ul>
+          </details>
+          <hr>
+          <details>
+            <summary>Lista de pessoas</summary>
+            <ul>
+                <li>neymar</li>
+                <li>messi</li>
+                <li>cris ronaldo</li>
+            </ul>
+          </details>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
